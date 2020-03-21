@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Product from './Product'
 import Title from './Title'
+import Introduction from './Introduction'
 import { ProductConsumer } from '../context'
 
 
@@ -10,7 +11,8 @@ export default class ProductList extends Component {
       <React.Fragment>
         <article className="py-5">
           <section className="container">
-            <Title name="our" title="products" />
+            <Introduction />
+            <hr />
             <section className="row">
               <ProductConsumer>
                 {value => {
