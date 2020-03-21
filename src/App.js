@@ -9,6 +9,7 @@ import Details from './components/Details'
 import Cart from './components/cart/Cart'
 import Default from './components/Default'
 import Modal from './components/Modal'
+import Policy from './components/Policy'
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path="/" component={ ProductList } />
           <Route exact path="/details" component={ Details } />
           <Route exact path="/cart" component={ Cart } />
+          <Route exact path="/policy" component={ Policy} />
           <Route component={ Default } />
         </Switch>
         <Footer />

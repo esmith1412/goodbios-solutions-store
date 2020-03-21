@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Policy from './Policy'
 
 
 export default class Footer extends Component {
@@ -7,7 +9,6 @@ export default class Footer extends Component {
 
     return (
       <React.Fragment>
-        {/* TODO: Create three columns for each piece of information */}
         <hr />
         <footer className="container-fluid d-flex justify-content-sm-around">
           <section>
@@ -18,6 +19,9 @@ export default class Footer extends Component {
               Contact Us
             </a>
           </section>
+          <Link to="/policy">
+            <a href="">Privacy Policy</a>
+          </Link>
         </footer>
       </React.Fragment>
     )
