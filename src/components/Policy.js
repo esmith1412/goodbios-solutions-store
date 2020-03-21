@@ -25,7 +25,7 @@ export default function Policy() {
 
       <h2>Cookies</h2>
 
-      <p>Cookies are files with small amount of data that is commonly used an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your computer’s hard drive.</p>
+      <p>Cookies are files with a small amount of data that is commonly used an anonymous unique identifier. These are sent to your browser from the website that you visit, and are stored on your computer’s hard drive.</p>
 
       <p>Our website uses these "cookies" to collection information and to improve our Service. You have the option to either accept or refuse these cookies, and know when a cookie is being sent to your computer. If you choose to refuse our cookies, you may not be able to use some portions of our Service.</p>
 

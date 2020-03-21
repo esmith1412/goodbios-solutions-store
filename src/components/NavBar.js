@@ -24,12 +24,10 @@ export default class Navbar extends Component {
                 className="navbar navbar-expand-sm navbar-dark px-sm-5"
               >
                 {/*
-                  https://www.iconfinder.com/icons/1243689/call_phone_icon
-                  Creative Commons (Attribution 3.0 Unported);
-                  https://www.iconfinder.com/Makoto_msk
+                  Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
                 */}
                 <Link to="/">
-                  <img src={logo} alt="store" className="navbar-brand" />
+                  <img src={logo} alt="store" height="75" width="75" />
                 </Link>
                 <ul className="navbar-nav align-items-center">
                   <li className="nav-item ml-5">
