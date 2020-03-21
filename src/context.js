@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { storeProducts, detailProduct } from './data'
+import { storeProducts } from './data'
 
 
 const ProductContext = React.createContext()
@@ -9,10 +9,10 @@ const ProductContext = React.createContext()
 class ProductProvider extends Component {
   state = {
     products: [],
-    detailProduct: detailProduct,
+    detailProduct: {},
     cart: [],
     modalOpen: false,
-    modalProduct: detailProduct,
+    modalProduct: {},
     cartSubTotal: 0,
     cartTax: 0,
     cartTotal: 0

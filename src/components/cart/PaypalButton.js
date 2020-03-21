@@ -52,6 +52,7 @@ export default class MyApp extends React.Component {
           onError={onError}
           onSuccess={onSuccess}
           onCancel={onCancel}
+          shipping={2} // To require a shipping address
         />
     );
   }
