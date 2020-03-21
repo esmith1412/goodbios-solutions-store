@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 import ProductList from './components/ProductList'
 import Details from './components/Details'
 import Cart from './components/cart/Cart'
@@ -21,6 +22,7 @@ class App extends Component {
           <Route exact path="/cart" component={ Cart } />
           <Route component={ Default } />
         </Switch>
+        <Footer />
         <Modal />
       </React.Fragment>
     )
