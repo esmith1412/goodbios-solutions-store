@@ -3,13 +3,12 @@ import { storeProducts } from './data'
 
 
 const ProductContext = React.createContext()
-// Provider
-// Consumer
+
 
 class ProductProvider extends Component {
   state = {
     products: [],
-    detailProduct: {},
+    detailProduct: storeProducts[0],
     cart: [],
     modalOpen: false,
     modalProduct: {},
