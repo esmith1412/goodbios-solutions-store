@@ -10,6 +10,7 @@ import Cart from './components/cart/Cart'
 import Default from './components/Default'
 import Modal from './components/Modal'
 import Policy from './components/Policy'
+import About from './components/About'
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route exact path="/details" component={ Details } />
           <Route exact path="/cart" component={ Cart } />
           <Route exact path="/policy" component={ Policy} />
+          <Route exact path="/about" component={ About } />
           <Route component={ Default } />
         </Switch>
         <Footer />

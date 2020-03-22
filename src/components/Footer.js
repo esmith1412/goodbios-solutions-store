@@ -22,6 +22,9 @@ export default class Footer extends Component {
           <Link to="/policy">
             <a href="">Privacy Policy</a>
           </Link>
+          <Link to="/about">
+            <a href="">About Us</a>
+          </Link>
         </footer>
       </React.Fragment>
     )
