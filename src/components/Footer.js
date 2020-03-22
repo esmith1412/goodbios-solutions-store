@@ -9,7 +9,7 @@ export default class Footer extends Component {
     return (
       <React.Fragment>
         <hr />
-        <footer className="container-fluid d-flex justify-content-sm-around">
+        <footer className="container-fluid d-sm-flex justify-content-sm-around align-items-sm-center">
           <section>
             &copy;{this_year} - GoodBIOS Solutions
           </section>
@@ -18,15 +18,21 @@ export default class Footer extends Component {
               Contact Us
             </a>
           </section>
-          <Link to="/policy">
-            <a href="">Privacy Policy</a>
-          </Link>
-          <Link to="/about">
-            <a href="">About Us</a>
-          </Link>
-          <Link to="/terms">
-            <a href="">Terms and Conditions</a>
-          </Link>
+          <section>
+            <Link to="/policy">
+              <a href="">Privacy Policy</a>
+            </Link>
+          </section>
+          <section>
+            <Link to="/about">
+              <a href="">About Us</a>
+            </Link>
+          </section>
+          <section>
+            <Link to="/terms">
+              <a href="">Terms and Conditions</a>
+            </Link>
+          </section>
         </footer>
       </React.Fragment>
     )
