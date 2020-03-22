@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import Policy from './Policy'
 
 
 export default class Footer extends Component {
@@ -24,6 +23,9 @@ export default class Footer extends Component {
           </Link>
           <Link to="/about">
             <a href="">About Us</a>
+          </Link>
+          <Link to="/terms">
+            <a href="">Terms and Conditions</a>
           </Link>
         </footer>
       </React.Fragment>

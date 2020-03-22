@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default function About() {
   return (
     <article className="container">
-      <h1>About GoodBIOS Solutions</h1>
+      <h1><strong>About GoodBIOS Solutions</strong></h1>
 
       <p>GoodBIOS Solutions was founded in 2017, on the principle of providing affordable options for everyone who is tired of having to use software that they cannot trust, and companies that sell their personal information to the highest bidder.</p>
 
