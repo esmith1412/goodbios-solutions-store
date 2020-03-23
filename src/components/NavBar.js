@@ -20,18 +20,17 @@ export default class Navbar extends Component {
             cart.forEach(product => totalQuantity += product.count)
 
             return (
-              <NavWrapper
-                className="navbar navbar-expand-sm navbar-dark px-sm-5"
-              >
+              <NavWrapper className="navbar navbar-expand-sm px-sm-5">
                 {/*
                   Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
                 */}
-                <Link to="/">
-                  <img src={logo} alt="store" height="75" width="75" />
-                </Link>
+                <img src={logo} alt="store" height="75" width="75" />
                 <ul className="navbar-nav align-items-center">
-                  <li className="nav-item ml-5">
+                  <li className="nav-item ml-4">
                     <Link to="/" className="nav-link">Store</Link>
+                  </li>
+                  <li className="nav-item ml-4">
+                    <Link to="/about" className="nav-link">About Us</Link>
                   </li>
                 </ul>
                 <Link to="/cart" className="ml-auto">

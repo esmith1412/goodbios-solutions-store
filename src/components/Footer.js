@@ -24,11 +24,6 @@ export default class Footer extends Component {
             </Link>
           </section>
           <section>
-            <Link to="/about">
-              <a href="">About Us</a>
-            </Link>
-          </section>
-          <section>
             <Link to="/terms">
               <a href="">Terms and Conditions</a>
             </Link>
