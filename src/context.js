@@ -29,7 +29,7 @@ class ProductProvider extends Component {
   }
 
   getItem = id => {
-    return this.state.products.find(product => product.id == id)
+    return this.state.products.find(product => product.id === id)
   }
 
   handleDetail = id => {
@@ -74,7 +74,7 @@ class ProductProvider extends Component {
 
   increment = id => {
     let tempCart = [...this.state.cart]
-    const selectedProduct = tempCart.find(item => item.id == id)
+    const selectedProduct = tempCart.find(item => item.id === id)
 
     const index = tempCart.indexOf(selectedProduct)
     const product = tempCart[index]
@@ -94,13 +94,13 @@ class ProductProvider extends Component {
 
   decrement = id => {
     let tempCart = [...this.state.cart]
-    const selectedProduct = tempCart.find(item => item.id == id)
+    const selectedProduct = tempCart.find(item => item.id === id)
 
     const index = tempCart.indexOf(selectedProduct)
     const product = tempCart[index]
 
     // To not decrement, if quantity is one; remove button should be used instead.
-    if (product.count == 1) {
+    if (product.count === 1) {
       return null
     }
     else {
@@ -156,7 +156,7 @@ class ProductProvider extends Component {
 
   addTotals = () => {
     let subTotal = 0
-    this.state.cart.map(item => { subTotal += item.total })
+    this.state.cart.map(item => subTotal += item.total)
     const tempTax = subTotal * 0.058
     const tax = parseFloat( tempTax.toFixed(2) )
     const total = subTotal + tax
