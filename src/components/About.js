@@ -16,7 +16,7 @@ export default function About() {
 
       <p>The process for using our service is very simple: You add as many installations as you need to your cart; pay through Paypal, and then send an email to the administrator with your Paypal order number, device(s) you'll be sending, and any special requests.* Please make sure to ask any questions you have prior to making a purchase, as refunds will only be offered for errors that occur on our end.</p>
 
-      <p>From there you will receive an email from the adminstrator with instructions for shipping your device(s). Once we receive the device(s), depending on order volume, of course, the service will be completed in 1-2 business days (3-4 at high-volume times), and then shipped back to you, using Medium Flat-Rate 2-Day USPS shipping.</p>
+      <p>From there, you will receive an email from the adminstrator with instructions for shipping your device(s). Once we receive the device(s), depending on order volume, of course, the service will be completed in 1-2 business days (3-4 at high-volume times), and then shipped back to you, using Medium Flat-Rate 2-Day USPS shipping.</p>
 
       <i>*You must pay the shipping costs for sending in the device(s), while we provide free return shipping.</i>
     </article>
